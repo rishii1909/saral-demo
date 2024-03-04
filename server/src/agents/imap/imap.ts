@@ -8,8 +8,7 @@ import { respond } from "../../utils/response";
 import WebSocket from "ws";
 import { WebSocketAgent } from "../websocket/websocket";
 
-// const PAST_DAYS = 7;
-const PAST_DAYS = 1 / 48;
+const PAST_DAYS = 7;
 
 const fetchOptions = {
   bodies: ["HEADER", ""],
