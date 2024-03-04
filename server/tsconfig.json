@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true
+    "strict": true
+  }
+}
